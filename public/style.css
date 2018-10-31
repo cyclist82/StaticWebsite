@@ -1,10 +1,13 @@
 #banner {
     background-image: url("banner.jpg");
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: right top;
     background-size: cover;
-    height: 170px;
+    height: 200px;
     max-width: 1200px;
+    margin-top: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 #navigation {
@@ -26,7 +29,7 @@ body {
 }
 
 #platzhalter {
-    height: 220px;
+    height: 190px;
 }
 
 .container {
@@ -43,18 +46,17 @@ div.container.gesamt {
 
 #sponsoren {
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-evenly;
     align-items: flex-start;
 }
 
-h3 {
-    text-align: center;
-}
-.sponsor{
+.sponsor {
     margin-top: 0px;
     padding-top: 0px;
     min-width: 150px;
+    padding-right: 15px;
+    padding-left: 15px;
     margin: 20px;
 }
