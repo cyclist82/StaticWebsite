@@ -41,7 +41,20 @@ div.container.gesamt {
     border-bottom-right-radius: 10px;
 }
 
-.sponsor {
+#sponsoren {
     display: flex;
-    max-width: 400px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+h3 {
+    text-align: center;
+}
+.sponsor{
+    margin-top: 0px;
+    padding-top: 0px;
+    min-width: 150px;
+    margin: 20px;
 }
