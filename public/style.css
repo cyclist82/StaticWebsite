@@ -1,4 +1,4 @@
-*{
+* {
     font-family: "Helvetica Neue", sans-serif;
 }
 
@@ -13,21 +13,30 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-#content{
+
+#content {
 
 }
+
 #navigation {
-    background-color:  rgba(0,0,0,0.7) !important;
-}
-#navigation a{
-    color: white;
-}
-#navigation span{
-    color: white;
+    background-color: rgba(0, 0, 0, 0.7) !important;
 }
 
-#navigation li div a{
-    color: black;
+#dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+#dropdown-menu a:hover{
+    background-color: grey;
+}
+
+#navigation a {
+    color: white;
+    padding-left: 10px;
+}
+
+#navigation span {
+    color: white;
+    padding-left: 10px;
 }
 
 .navbar-nav > li > a:hover {
@@ -57,7 +66,7 @@ div.container.gesamt {
     margin-bottom: 10pt;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("evGlasgow.JPG");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("evGlasgow.JPG");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
