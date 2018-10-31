@@ -1,11 +1,30 @@
-body {
-    background-color: brown;
+#banner {
+    background-image: url("banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 150px;
+    max-width: 1200px;
 }
 
-.platzhalter {
-    height: 20pt;
+#navigation {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+body {
+    background-color: brown;
+    padding-top: 230px;
 }
 
 .container {
     background-color: white;
+}
+
+div.container.rounded.gesamt {
+    max-width: 1200px;
+    margin-bottom: 15pt;
+    padding: 20px;
 }
