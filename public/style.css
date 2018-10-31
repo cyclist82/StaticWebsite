@@ -7,11 +7,9 @@
     background-repeat: no-repeat;
     background-position: right center;
     background-size: cover;
+    border-radius: 10px 10px 0px 0px;
     height: 200px;
     max-width: 1200px;
-    margin-top: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
 
 #content {
@@ -29,12 +27,21 @@
     background-color: grey;
 }
 
-#navigation a {
+#navigation a.nav-link {
+    color: white;
+    padding-left: 10px;
+}
+#navigation span.nav-link.dropdown-toggle {
     color: white;
     padding-left: 10px;
 }
 
-#navigation span {
+#navigation li.nav-item.active>a.nav-link {
+    color: darkred;
+    padding-left: 10px;
+}
+
+#navigation a.dropdown-item {
     color: white;
     padding-left: 10px;
 }
@@ -61,11 +68,11 @@ body {
     background-color: white;
 }
 
-div.container.gesamt {
+div.container.gesamt.my-md-3 {
+    background-color: black;
     max-width: 1200px;
-    margin-bottom: 10pt;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    /*margin-bottom: 10pt;*/
+    border-radius: 10px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("evGlasgow.JPG");
     background-size: cover;
     background-position: center;
