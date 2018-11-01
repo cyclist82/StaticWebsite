@@ -57,11 +57,14 @@
 }
 
 body {
-    background-color: midnightblue;
+    background-color: black;
 }
 
 #platzhalter {
     height: 190px;
+}
+div.sticky-top.sticky-offet{
+    top: 56px;
 }
 
 .container {
