@@ -26,6 +26,12 @@
 #dropdown-menu a:hover{
     background-color: grey;
 }
+nav.navbar-toggler.h1.border-0{
+    color: white;
+}
+span.navbar-toggler-icon{
+    color: white;
+}
 
 #navigation a.nav-link {
     color: white;
@@ -58,6 +64,7 @@
 
 body {
     background-color: black;
+    position: relative;
 }
 
 #platzhalter {
