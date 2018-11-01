@@ -23,13 +23,16 @@
 #dropdown-menu {
     background-color: rgba(0, 0, 0, 0.7) !important;
 }
-#dropdown-menu a:hover{
+
+#dropdown-menu a:hover {
     background-color: grey;
 }
-nav.navbar-toggler.h1.border-0{
+
+nav.navbar-toggler.h1.border-0 {
     color: white;
 }
-span.navbar-toggler-icon{
+
+span.navbar-toggler-icon {
     color: white;
 }
 
@@ -37,12 +40,13 @@ span.navbar-toggler-icon{
     color: white;
     padding-left: 10px;
 }
+
 #navigation span.nav-link.dropdown-toggle {
     color: white;
     padding-left: 10px;
 }
 
-#navigation li.nav-item.active>a.nav-link {
+#navigation li.nav-item.active > a.nav-link {
     color: darkred;
     padding-left: 10px;
 }
@@ -70,7 +74,8 @@ body {
 #platzhalter {
     height: 190px;
 }
-div.sticky-top.sticky-offet{
+
+div.sticky-top.sticky-offet {
     top: 56px;
 }
 
@@ -85,9 +90,11 @@ div.container.gesamt.my-md-3 {
     border-radius: 10px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("evGlasgow.JPG");
     background-size: cover;
-    background-position: center;
+    background-position: center top;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    width: 100%;
+    height: 100%;
     color: white;
     padding: 0px;
 }
