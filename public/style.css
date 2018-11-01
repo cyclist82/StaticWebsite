@@ -82,8 +82,7 @@ div.sticky-top.sticky-offet {
 .container {
     background-color: white;
 }
-
-div.container.gesamt.my-md-3 {
+#iOSContainer{
     background-color: black;
     max-width: 1200px;
     /*margin-bottom: 10pt;*/
@@ -97,7 +96,23 @@ div.container.gesamt.my-md-3 {
     height: 100%;
     color: white;
     padding: 0px;
+
 }
+/*div.container.gesamt.my-md-3 {*/
+    /*background-color: black;*/
+    /*max-width: 1200px;*/
+    /*!*margin-bottom: 10pt;*!*/
+    /*border-radius: 10px;*/
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("evGlasgow.JPG");*/
+    /*background-size: cover;*/
+    /*background-position: center top;*/
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: fixed;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*color: white;*/
+    /*padding: 0px;*/
+/*}*/
 
 #sponsoren {
     display: flex;
