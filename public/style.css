@@ -23,13 +23,16 @@
 #dropdown-menu {
     background-color: rgba(0, 0, 0, 0.7) !important;
 }
-#dropdown-menu a:hover{
+
+#dropdown-menu a:hover {
     background-color: grey;
 }
-nav.navbar-toggler.h1.border-0{
+
+nav.navbar-toggler.h1.border-0 {
     color: white;
 }
-span.navbar-toggler-icon{
+
+span.navbar-toggler-icon {
     color: white;
 }
 
@@ -37,12 +40,17 @@ span.navbar-toggler-icon{
     color: white;
     padding-left: 10px;
 }
+
 #navigation span.nav-link.dropdown-toggle {
     color: white;
     padding-left: 10px;
 }
 
-#navigation li.nav-item.active>a.nav-link {
+#navigation span.nav-link.dropdown-toggle.active {
+    color: darkred;
+}
+
+#navigation li.nav-item.active > a.nav-link {
     color: darkred;
     padding-left: 10px;
 }
@@ -72,23 +80,25 @@ body {
 #platzhalter {
     height: 190px;
 }
-div.sticky-top.sticky-offet{
+
+div.sticky-top.sticky-offet {
     top: 56px;
 }
-p{
+
+p {
     text-align: justify;
 }
 
 .container {
     background-color: transparent;
 }
-#image{
+
+#image {
     max-width: 600px;
     float: left;
     margin-right: 10px;
     margin-bottom: 5px;
 }
-
 
 div.container.gesamt.my-md-3 {
     background-color: black;
