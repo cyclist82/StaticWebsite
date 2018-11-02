@@ -11,9 +11,11 @@
     height: 200px;
     max-width: 1200px;
 }
-figcaption.figure-caption{
+
+figcaption.figure-caption {
     color: ghostwhite;
 }
+
 #content {
 
 }
@@ -111,6 +113,9 @@ div.container.gesamt.my-md-3 {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    -moz-background-size: cover;
+    -webkite-background-size: cover;
+    -o-background-size: cover;
     color: white;
     padding: 0px;
 }
