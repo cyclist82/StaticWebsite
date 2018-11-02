@@ -11,7 +11,9 @@
     height: 200px;
     max-width: 1200px;
 }
-
+figcaption.figure-caption{
+    color: ghostwhite;
+}
 #content {
 
 }
